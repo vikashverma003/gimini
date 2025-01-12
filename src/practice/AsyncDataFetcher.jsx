@@ -20,6 +20,7 @@ function AsyncDataFetcher() {
         } catch (err) {
         setError(err.message); // Handle errors
         } finally {
+          console.log(123123);
         setLoading(false); // Set loading to false when the operation is complete
         }
     };
